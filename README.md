@@ -9,8 +9,8 @@ A simple and practical Todo List application built to practice full-stack web de
 - Update existing tasks.
 - Delete tasks.
 - Manage tasks through a simple and user-friendly interface.
--Add daily Tasks.
-
+- Add daily Tasks.
+- 
 ## 🛠️ Technologies Used
 
 ### Frontend
