@@ -199,16 +199,16 @@ async function updateTask(id,title) {
               </label>
               <div
               className="w-[310px] flex flex-col md:w-full  md:flex-row min-w-0 rounded-2xl p-4 justify-between"
-              style={{backgroundColor:color}}
+                style={{ backgroundColor: color }}
               >
                 <input 
-                className="flex-1 min-w-0 outline-none"
+                className="flex-1 min-w-0 outline-emerald-100 outline-1 rounded-2xl py-3 px-3"
                   value={title}
                   placeholder="Write Something and it'll appear here" 
                 >  
               </input>
-               <span className=" text-xs p-1">
-                {date.slice(3).replace('-', ':')} in {time.slice(0)}
+               <span className="font-bold text-[12px] p-4">
+                {date.slice(0).replace('/', '/')} in {time.slice(0)}
                </span>
               </div>
                
