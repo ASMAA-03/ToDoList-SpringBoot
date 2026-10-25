@@ -9,6 +9,7 @@ A simple and practical Todo List application built to practice full-stack web de
 - Update existing tasks.
 - Delete tasks.
 - Manage tasks through a simple and user-friendly interface.
+-Add daily Tasks.
 
 ## 🛠️ Technologies Used
 
@@ -83,8 +84,6 @@ Open the local URL displayed in your terminal to access the application.
 Configure your MySQL database connection in the backend's `application.properties` file.
 
 Make sure the database exists and the database credentials match your local configuration.
-
-**Note:** Do not commit passwords or other sensitive credentials to GitHub.
 
 ## 🎯 Project Goal
 
