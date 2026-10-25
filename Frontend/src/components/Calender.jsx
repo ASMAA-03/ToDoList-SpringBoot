@@ -16,7 +16,7 @@ function Calender() {
   }
 
   return (
-    <section className="flex justify-center p-2 w-full">
+    <section className="flex justify-center p-2 w-full ">
       <div className="w-full max-w-md rounded-2xl border border-[#d4b27f] bg-[#feefd3] p-5 shadow-sm">
         <h1 className="p-2.5 text-2xl font-bold text-[#241b17]">
           {today.toLocaleDateString("en-US", {

@@ -198,11 +198,11 @@ async function updateTask(id,title) {
                   %Preview
               </label>
               <div
-              className="w-[310px] flex flex-col md:w-full  md:flex-row min-w-0 rounded-2xl p-4 justify-between"
+              className="w-[310px] flex flex-col md:w-full  md:flex-row min-w-0 rounded-2xl p-2 justify-between"
                 style={{ backgroundColor: color }}
               >
                 <input 
-                className="flex-1 min-w-0 outline-emerald-100 outline-1 rounded-2xl py-3 px-3"
+                className="flex-1 min-w-0 outline-none outline-1 rounded-2xl py-3 px-3"
                   value={title}
                   placeholder="Write Something and it'll appear here" 
                 >  

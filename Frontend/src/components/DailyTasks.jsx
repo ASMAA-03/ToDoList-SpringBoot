@@ -52,7 +52,7 @@ export default function DailyTasks() {
         {task.map((task) => (
           <div
             key={task.id}
-            className="bg-amber-200/50 mb-1 text-black w-[280px] flex flex-col md:w-full md:flex-row   justify-between rounded-2xl border border-[#d9cdbb] bg-[#f8f2e7] py-3 px-2"
+            className="bg-amber-100  mb-1 text-black w-[280px] flex flex-col md:w-full md:flex-row   justify-between rounded-2xl border border-[#d9cdbb] bg-[#f8f2e7] py-3 px-2"
           >{task.title}
 </div>
           
