@@ -1,6 +1,6 @@
 
 import { useEffect, useState } from "react";
-import { addTask as addDailyTask, getTasks } from "../services/dailytaskservice";
+import { addTask as addDailyTask, getTasks ,deleteTask as removeTask} from "../services/dailytaskservice";
 
 export default function DailyTasks() {
   
@@ -17,6 +17,12 @@ export default function DailyTasks() {
 
     }
   }
+
+  async function deleteTask(id) {
+    await removeTask(id);
+    setTask(task.filter((task) => task.id !== id));
+  }
+
   useEffect(() =>{
     async function loadTasks() {
       const data = await getTasks();
@@ -54,9 +60,13 @@ export default function DailyTasks() {
             key={task.id}
             className="bg-amber-100  mb-1 text-black w-[280px] flex flex-col md:w-full md:flex-row   justify-between rounded-2xl border border-[#d9cdbb] bg-[#f8f2e7] py-3 px-2"
           >{task.title}
+            <button
+              onClick={() => deleteTask(task.id)}
+              className="text-red-700 bg-red-400/25 px-3 py-1 rounded-2xl hover:cursor-pointer">Delete</button>
+
 </div>
           
-))}
+        ))}
       
       </div>
 

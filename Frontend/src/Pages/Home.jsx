@@ -25,7 +25,7 @@ function Home() {
 
 
       </div>
-      <div className="hidden lg:sticky lg:top-8 lg:block m-auto h-fit w-full rounded-2xl bg-amber-100 p-4 text-center shadow-sm lg:max-w-[220px]">
+      <div className="hidden lg:sticky lg:top-8 lg:block m-auto h-fit w-full rounded-2xl lg:ml-5 bg-amber-100 p-4 text-center shadow-sm lg:max-w-[220px]">
       <p className="text-lg font-bold text-amber-950">
         ✨ لا تقل لن استطيع لا تقل هذا محال وانطلق قبل الجميع لون الدنيا تعال   ✨
       </p>

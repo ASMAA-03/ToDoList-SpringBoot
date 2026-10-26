@@ -22,5 +22,11 @@ export async function addTask(title) {
         return new Error("Can't add a Task");
     }
     return response.json();
+}
 
+export async function deleteTask(id) {
+    const response = await fetch(`${API_URL}/${id}`, { method: "DELETE" });
+    if (!response.ok) {
+        throw new Error("Failed to Delete")
+    }
 }
