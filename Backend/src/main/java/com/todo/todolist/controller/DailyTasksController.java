@@ -24,5 +24,8 @@ public class DailyTasksController {
     public  DailyTasksEntity addTask(@RequestBody DailyTasksEntity task){
         return dailyTasksRepository.save(task);
 }
-
+@DeleteMapping("/{id}")
+    public void deleteTask(@PathVariable Integer id){
+        dailyTasksRepository.deleteById(id);
+}
 }
