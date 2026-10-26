@@ -52,7 +52,8 @@ cd TodoList
 Navigate to the backend directory:
 
 ```bash
-cd ToDoList-J
+cd ToDoList-SpringBoot
+cd backend
 ```
 
 Run the Spring Boot application:
@@ -72,6 +73,7 @@ On Windows, use:
 Open a new terminal and navigate to the frontend directory:
 
 ```bash
+cd ToDoList-SpringBoot
 cd Frontend
 npm install
 npm run dev
